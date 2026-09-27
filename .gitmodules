@@ -1,0 +1,6 @@
+[submodule "ai-todo-be"]
+	path = ai-todo-be
+	url = https://github.com/sujayk46/ai-todo-be.git
+[submodule "ai-todo-fe"]
+	path = ai-todo-fe
+	url = https://github.com/sujayk46/ai-todo-fe.git

@@ -1,0 +1,24 @@
+{
+  "name": "ai-todo-project",
+  "version": "1.0.0",
+  "description": "Full-stack AI-Powered To-Do List Application (Parent Project Orchestrator)",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix ai-todo-be\" \"npm run dev --prefix ai-todo-fe\"",
+    "dev": "concurrently \"npm run dev --prefix ai-todo-be\" \"npm run dev --prefix ai-todo-fe\"",
+    "install:all": "npm install && npm install --prefix ai-todo-be && npm install --prefix ai-todo-fe"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "ai",
+    "todo",
+    "gemini",
+    "fullstack",
+    "react",
+    "express"
+  ],
+  "author": "sujayk46",
+  "license": "MIT"
+}
